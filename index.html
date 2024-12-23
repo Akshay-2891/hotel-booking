@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/9dd45065e3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Imperial+Script&display=swap" rel="stylesheet">
+    <title> TAJ HOTELS CSS</title>
+</head>
+<body>
+    <section class="hero-section">
+          <div class="hero-text">
+              <h1 style="font-size: 38px; margin-bottom: 10px;";>WELCOME TO TAJ HOTELS</h1>
+                <p style="font-size: 19px ; margin:10px">Taj Krishna, a luxury hotel in Hyderabad with beautiful accommodation.</p>
+            <button class="book-button">BOOK</button>
+                </div>
+    </section>
+
+     
+      <h1 class="about-heading">ABOUT US</h1>
+      <section class="about-section">
+        <div class="about-us">
+            <p>
+                Taj Krishna, Hyderabad, sprawls over 56,656 square metres of enviable greenery at the 
+                heart of the city. The immaculate lawns offer idyllic spots for leisurely days and 
+                picturesque weddings, while our indoor venues boast awe-inspiring ballrooms and well-
+                equipped meeting spaces for business endeavours.</p><br>
+             <p>Emanating an abundance of natural light and showcasing panoramic city vistas, our freshly
+                refurbished rooms exemplify the excellence expected from our esteemed 5-star hotel in 
+                Hyderabad.The legendary Taj service awaits you at our distinguished 5-star hotel in 
+                Hyderabad.</p>
+            <div class="know-more-container">
+                <button class="know-more">KNOW MORE....</button>
+        </div>
+        </div>
+        <div class="amenities">
+            <h3>Amenities we have: </h3>
+            <ul>
+                <li><i class="fa-solid fa-wifi"></i>High Speed Internet</li>
+                <li><i class="fa-solid fa-bowl-food"></i>Complementary Breakfast</li>
+                <li><i class="fa-solid fa-person-swimming"></i>Swimming Pool</li>
+                <li><i class="fa-solid fa-dumbbell"></i>GYM</li>
+                <li><i class="fa-solid fa-mug-saucer"></i>Cafeteria</li>
+            </ul>
+        </div>
+     </section>
+     <h1 class="room-heading">ROOM TYPES</h1>
+     <section class="room-type-container">
+        <div class="room-images">
+            <img src="room.jpeg" alt=" room-image">
+        </div>
+         <div class="Rooms-List">
+            <h3>Single Occupancy Rooms</h3>
+            <p>
+                A single occupancy room is a room that is intended for one person to sleep in, 
+                and is often found in hotels or rented accommodations. It typically has a single bed, 
+                chair, and sometimes a small desk.
+            </p>
+            <h3>Family Rooms</h3>
+            <p>
+                A Family Room can often mean a Standard Room with space for a sofa bed or camp bed. 
+                It does not always allow space for a sofa bed and a travel cot at the same time so 
+                make sure to check with the hotel directly if travelling with a baby and a toddler or child.
+            </p>
+            <h3>Duplex Rooms</h3>
+            <p>
+                Duplex room, the duplex suite comprises two rooms situated different floors which are 
+                connected by an internal staircase.
+            </p>
+            </div>
+           
+     </section>
+     <div class="help-button">
+        <h4>Need Help?</h4>
+     </div>
+     <h2 class="form-heading">Fill The Form For Booking Room</h2>
+     <section class="form-container">
+        <form>
+            <div class="form-group">
+                <label for="name">Your Full Name</label> <br>
+                <input type="text" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email Id</label> <br>
+                 <input type="email" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="booking-date">Date Of Booking</label> <br>
+                <input type="date" id="booking-date" required>
+            </div>
+            <div class="form-group">
+                 <label for="room-type">Select Room Type</label> <br>
+                 <select name="room-type" id="room-type" required>
+                    <option value="" selected disabled>Select....</option>
+                    <option value="single room">Single Room</option>
+                    <option value="family room">Family Room</option>
+                    <option value="duplex room">Duplex Room</option>  
+                 </select>            
+                </div>
+                <input type="submit" value="BOOK">
+        </form>
+     </section>
+</body>
+</html>
